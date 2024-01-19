@@ -9,12 +9,6 @@ car = {
 def car_price(data):
     if car.get(data):
         print(f'Стоимость {data} на вторичном рынке состовляет - {car[data]}')
-        all_car = input('Хотите посмотреть весь список машин? ')
-        if all_car == 'Да':
-            for k, v in car.items():
-                print(f'Стоимость {k} на вторичном рынке состовляет - {v}')
-        else:
-            print('До скорой встерчи')
     else:
         print('''Проверьте правильность ввода.
 Вам доступны марки:''')
