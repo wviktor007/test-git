@@ -1,10 +1,10 @@
-car = {
-    'BMW' : '10.000$',
-    'Subaru' : '20.000$',
-    'Lada' : '3000$',
-    'Opel' : '2000$',
-    'Haval' : '10.000$'
-}
+# car = {
+#     'BMW' : '10.000$',
+#     'Subaru' : '20.000$',
+#     'Lada' : '3000$',
+#     'Opel' : '2000$',
+#     'Haval' : '10.000$'
+# }
 
 def car_price(data):
     if car.get(data):
@@ -13,6 +13,8 @@ def car_price(data):
         if all_car == 'Да':
             for k, v in car.items():
                 print(f'Стоимость {k} на вторичном рынке состовляет - {v}')
+        else:
+            print('До скорой встречи')
     else:
         print('''Проверьте правильность ввода.
 Вам доступны марки:''')
@@ -24,3 +26,7 @@ def car_price(data):
 data = input('Введите макрку машины: ')
 
 car_price(data)
+gbnngdngfxjcgmghm,
+oi;hi
+ho;hoi;p
+p[xhng]
