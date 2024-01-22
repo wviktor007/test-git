@@ -1,10 +1,10 @@
-# car = {
-#     'BMW' : '10.000$',
-#     'Subaru' : '20.000$',
-#     'Lada' : '3000$',
-#     'Opel' : '2000$',
-#     'Haval' : '10.000$'
-# }
+car = {
+    'BMW' : '10.000$',
+    'Subaru' : '20.000$',
+    'Lada' : '3000$',
+    'Opel' : '2000$',
+    'Haval' : '10.000$'
+}
 
 def car_price(data):
     if car.get(data):
